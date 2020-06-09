@@ -1,0 +1,15 @@
+{
+  "name": "a11y.css",
+  "author": "Jack Pritchard (@whatjackhasmade)",
+  "private": false,
+  "scripts": {
+    "deploy": "TODO",
+    "format": "yarn prettier -- --write",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.{css,js,json,md,mdx,scss}\"",
+    "validate": "yarn format"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  }
+}
