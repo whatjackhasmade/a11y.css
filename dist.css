@@ -7,3 +7,9 @@
     transition: none !important;
   }
 }
+
+*:focus:not(:focus-visible),
+*::before:focus:not(:focus-visible),
+*::after:focus:not(:focus-visible) {
+  outline: none;
+}

@@ -1,1 +1,1 @@
-@media (prefers-reduced-motion:reduce){*,::after,::before{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+@media (prefers-reduced-motion:reduce){*,::after,::before{animation:none!important;scroll-behavior:auto!important;transition:none!important}}::after:focus:not(:focus-visible),::before:focus:not(:focus-visible),:focus:not(:focus-visible){outline:0}
