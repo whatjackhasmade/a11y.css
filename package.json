@@ -1,11 +1,31 @@
 {
   "name": "a11y.css",
+  "version": "1.0.0",
+  "description": "Global CSS rules to improve accessibility in your site and make your life easier",
+  "homepage": "https://github.com/whatjackhasmade/a11y.css#readme",
+  "license": "MIT",
+  "keywords": [
+    "a11y",
+    "css",
+    "accessibility"
+  ],
   "author": "Jack Pritchard (@whatjackhasmade)",
-  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatjackhasmade/a11y.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whatjackhasmade/a11y.css/issues"
+  },
+  "files": [
+    "dist.css",
+    "dist.min.css"
+  ],
+  "main": "index.js",
   "scripts": {
     "deploy": "TODO",
     "format": "yarn prettier -- --write",
-    "prettier": "prettier --ignore-path .gitignore \"**/*.{css,js,json,md,mdx,scss}\"",
+    "prettier": "prettier \"**/*.{css,js,json,md,mdx,scss}\"",
     "validate": "yarn format"
   },
   "devDependencies": {
