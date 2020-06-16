@@ -60,3 +60,6 @@ typings/
 
 yarn.lock
 package-lock.json
+
+# List of todo tasks
+todo.md
